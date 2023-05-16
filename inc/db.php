@@ -6,6 +6,6 @@ if (!defined('APPLICATION_LOADED') || !APPLICATION_LOADED) {
 
 //Database config
 define('HOST', 'localhost');
-define('USER', 'root');
-define('PASS', 'toor');
-define('DATABASE', 'issue-tracking-system');
+define('USER', 'u848302103_pmtiket');
+define('PASS', '1qazXSW@');
+define('DATABASE', 'u848302103_namevn_ist');
