@@ -14,7 +14,7 @@ require 'templates/activitystream.php';
         <div class="panel panel-info">
             <div class="panel-heading"><?= $this->lang_php['introduction'] ?></div>
             <div class="panel-body">
-                <h1><?= $this->lang_php['welcome_to'] ?> NHT's EOL Tracking System <!-- <?= $_SERVER['HTTP_HOST'] ?> --> </h1>
+                <h1><?= $this->lang_php['welcome_to'] ?> Project Tracking System <!-- <?= $_SERVER['HTTP_HOST'] ?> --> </h1>
                 <h3><?= $this->lang_php['if_you_are_new'] ?> <a href="http://pmticket.com/more-about-ticketing-system" target="_blank"><?= $this->lang_php['guide'] ?></a>!</h3>
             </div>
         </div>
