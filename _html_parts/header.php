@@ -11,7 +11,8 @@ if(!defined('APPLICATION_LOADED') || !APPLICATION_LOADED) {
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="<?= $description ?>">
         <?= $tags_inner ?>
-        <title><?= $title ?></title>
+        <title>NHT's EOL Tracking System</title>
+<!--         <title><?= $title ?></title> -->
         <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css') ?>">
         <link rel="stylesheet" href="<?= base_url('assets/css/custom.css') ?>">
         <link rel="stylesheet" href="<?= base_url('assets/css/font-awesome.min.css') ?>">
