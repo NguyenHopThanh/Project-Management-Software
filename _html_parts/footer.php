@@ -8,7 +8,7 @@ if (isset($_SESSION['logged']) || isset($_COOKIE['logged'])) {
         <div>
             Project Management Software  
             &middot;
-            <a href="https://github.com/issue-tracking-system/Project-Management-Software/issues" target="_blank">Report a Bug <i class="fa fa-bug" aria-hidden="true"></i></a>
+            <a href="https://github.com/nguyenhopthanh/Project-Management-Software/issues" target="_blank">Report a Bug <i class="fa fa-bug" aria-hidden="true"></i></a>
         </div>
         <div class="pm"><?= $_SERVER['HTTP_HOST'] ?></div>
     </footer>
