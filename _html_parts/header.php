@@ -11,12 +11,12 @@ if(!defined('APPLICATION_LOADED') || !APPLICATION_LOADED) {
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="<?= $description ?>">
         <?= $tags_inner ?>
-        <title><?= $title ?></title>
+        <title>Ticket - GPDG</title>
+        <!-- <title><?= $title ?></title> -->
         <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css') ?>">
         <link rel="stylesheet" href="<?= base_url('assets/css/custom.css') ?>">
         <link rel="stylesheet" href="<?= base_url('assets/css/font-awesome.min.css') ?>">
         <link rel="stylesheet" href="<?= base_url('assets/bootstrap-select-1.9.4/css/bootstrap-select.min.css') ?>">
-        <title>Ticket - GPDG</title>
         <script src="<?= base_url('assets/js/jquery.min.js') ?>"></script>
         <script src="<?= base_url($this->lang_js) ?>"></script>
         <!--[if lt IE 9]>
