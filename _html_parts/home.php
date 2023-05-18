@@ -10,7 +10,7 @@ $projects = $this->getProjects();
 <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 <div id="content">
     <div id="home" class="container-fluid">
-        <h1><?= $this->lang_php['welcome_to'] ?> <?= $_SERVER['HTTP_HOST'] ?></h1>
+        <h1><?= $this->lang_php['welcome_to'] ?> Project Management System</h1> <!-- <?= $_SERVER['HTTP_HOST'] ?></h1> -->
         <div class="nav-top-content">
             <?php if (in_array($GLOBALS['CONFIG']['PERMISSIONS']['CREATE_PROJECT'], $this->permissions) || in_array($GLOBALS['CONFIG']['PERMISSIONS']['SETTINGS_PAGE'], $this->permissions)) { ?>
                 <a href="javascript:void(0);" data-toggle="modal" data-target="#createModal" data-tooltip="tooltip" data-placement="bottom" title="<?= $this->lang_php['create_new_project'] ?>"><i class="fa fa-plus-square"></i></a>
