@@ -2,7 +2,7 @@
 if (!defined('APPLICATION_LOADED') || !APPLICATION_LOADED) {
     die('No direct script access.');
 }
-$this->title = $_SERVER['HTTP_HOST'] . ' - ' . $this->lang_php['title_select_project'];
+$this->title = "PM:Ticket - Project Management System"; // $_SERVER['HTTP_HOST'] . ' - ' . $this->lang_php['title_select_project'];
 $this->description = 'This is your home page';
 
 $projects = $this->getProjects();
